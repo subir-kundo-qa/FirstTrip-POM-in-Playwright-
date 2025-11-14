@@ -8,7 +8,7 @@ The framework follows the **Page Object Model (POM)** to improve readability, ma
 ---
 
 ## Framework Structure
-
+```
 flight-assessment/
 │
 ├─ tests/
@@ -23,7 +23,7 @@ flight-assessment/
 ├─ package.json # Node.js dependencies
 ├─ package-lock.json
 └─ README.md # This file
-
+```
 
 ### Key Features
 - **Page Object Model (POM):** Each page has its own class with methods to interact with elements, making test logic clean and reusable.  
@@ -39,25 +39,27 @@ flight-assessment/
 
 ```bash
 git clone < https://github.com/subir-kundo-qa/FirstTrip-POM-in-Playwright-.git >
+```
 
 2.Navigate to the project directory
+```bash
 
-cd flight-assessment
+cd FirstTrip-POM-in-Playwright-
+```
 
 3.Install dependencies
+```bash
 
-npm install
+npm install playwright
+```
 
 4.Run the tests
+```bash
 
 npx playwright test tests/Main.spec.js
+```
 
-5. View test report
-
-npx playwright show-report
-
-
-Design Choices & Reasoning
+## Design Choices & Reasoning
 
 POM for Maintainability: Separates page interactions from test logic, making tests easier to read, maintain, and scale.
 
@@ -66,14 +68,6 @@ Explicit Popup Handling: Waits for popups before interacting, ensuring stability
 Logging Key Data: Captures flight prices to verify results and assist in debugging.
 
 Clean & Scalable: The structure supports future expansion, like adding round-trip searches or multi-browser testing.
-
-Notes
-
-Currently supports one-way flight search.
-
-Future improvements could include round-trip search, multi-browser testing, and data-driven tests.
-
-A stable internet connection and an accessible flight search site are required for successful execution.
 
 
 ---
