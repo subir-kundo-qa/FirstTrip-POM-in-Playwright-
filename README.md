@@ -9,17 +9,17 @@ The framework follows the **Page Object Model (POM)** to improve readability, ma
 
 ## Framework Structure
 ```
-flight-assessment/
+FirstTrip-POM-in-Playwright-/
 │
 ├─ tests/
 │ └─ Main.spec.js # Main executable test
 │
 ├─ pages/
-│ ├─ FlightPage.ts # Page Object Model for flight search page
-│ ├─ SearchResultPage.ts # POM for search results page
-│ └─ SignInPage.ts # POM for sign-in popup
+│ ├─ FlightPage.js # Page Object Model for flight search page
+│ ├─ SearchResultPage.js # POM for search results page
+│ └─ SignInPage.js # POM for sign-in popup
 │
-├─ playwright.config.ts # Playwright configuration
+├─ playwright.config.js # Playwright configuration
 ├─ package.json # Node.js dependencies
 ├─ package-lock.json
 └─ README.md # This file
@@ -38,7 +38,7 @@ flight-assessment/
 1. **Clone the repository**  
 
 ```bash
-git clone < https://github.com/subir-kundo-qa/FirstTrip-POM-in-Playwright-.git >
+git clone https://github.com/subir-kundo-qa/FirstTrip-POM-in-Playwright-.git
 ```
 
 2.Navigate to the project directory
