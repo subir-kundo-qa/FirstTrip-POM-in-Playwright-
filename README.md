@@ -67,7 +67,7 @@ Explicit Popup Handling: Waits for popups before interacting, ensuring stability
 
 Logging Key Data: Captures flight prices to verify results and assist in debugging.
 
-Clean & Scalable: The structure supports future expansion, like adding round-trip searches or multi-browser testing.
+Clean & Scalable: The structure supports future expansion, like adding round-trip searches or multi flights.
 
 
 ---
