@@ -50,7 +50,7 @@ cd FirstTrip-POM-in-Playwright-
 3.Install dependencies
 ```bash
 
-npm install playwright
+npm install
 ```
 
 4.Run the tests
